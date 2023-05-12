@@ -1,0 +1,638 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: gilroy-bold;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gilroy-Bold"),
+    url(https://fonts.cdnfonts.com/s/16219/Gilroy-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: gilroy-heavy;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gilroy-Heavy"),
+    url(https://fonts.cdnfonts.com/s/16219/Gilroy-Heavy.woff) format("woff");
+}
+
+@font-face {
+  font-family: gilroy-light;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gilroy-Light"),
+    url(https://fonts.cdnfonts.com/s/16219/Gilroy-Light.woff) format("woff");
+}
+
+@font-face {
+  font-family: gilroy-medium;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gilroy-Medium"),
+    url(https://fonts.cdnfonts.com/s/16219/Gilroy-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gilroy-Regular"),
+    url(https://fonts.cdnfonts.com/s/16219/Gilroy-Regular.woff) format("woff");
+}
+
+body {
+  margin: 0;
+  font-family: "gilroy-regular";
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: #fafafa;
+  padding: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  width: 40px;
+}
+
+header nav {
+  width: 330px;
+}
+
+.giftFinder {
+  width: 140px;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.giftFinder {
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  color: #f7941e;
+  text-transform: uppercase;
+  text-align: center;
+}
+.blog-card {
+  max-width: 1170px;
+}
+.blog-wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  background-color: #fafafa;
+}
+
+.feauters {
+  background-color: #f1f1f1;
+}
+.blog-card-info h3 {
+  color: #ffffff;
+}
+
+.feauters-info,
+.feauters-work {
+  display: flex;
+  align-items: center;
+}
+
+.feauters-desc,
+.feauters-img {
+  width: 50%;
+}
+
+.feauters-img img {
+  display: block;
+}
+
+.feauters .content {
+  max-width: 430px;
+  margin: auto;
+}
+
+.feauters-title {
+  font-size: 55px;
+}
+
+.feauters-subtitle {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.feauters-desc p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.feauters .find-gift-button {
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #f7941e;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.feauters .learn-more-button {
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  color: #f7941e;
+  text-transform: uppercase;
+}
+
+.wrap {
+  max-width: 1170px;
+  margin: auto;
+  padding: 90px 0;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 300px;
+}
+
+.occasions .title,
+.occasions .subtitle,
+.blogs .title,
+.blogs .subtitle {
+  text-align: center;
+}
+
+.occasions-cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.occasions-card-item {
+  width: 270px;
+  background-color: #fafafa;
+  transition: 0.3s;
+}
+
+.occasions-card-item:hover {
+  background-color: #fff;
+  box-shadow: -12px 10px 15px 0px #0000004a;
+}
+
+.card-desc {
+  padding: 24px;
+}
+
+.occasions-cards .see-more {
+  margin-top: 75px;
+  font-size: 14px;
+}
+
+.cta {
+  background-color: #f7941e;
+}
+
+.cta .wrap {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 0;
+  align-items: center;
+}
+
+.cta-info h3,
+.cta-info p {
+  font-size: 32px;
+  margin: 0;
+}
+
+.cta-action {
+  max-width: 415px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-buttons div {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.button-primary {
+  background-color: black;
+  color: #f1f1f1;
+}
+
+.button-secondary {
+  border: 1px solid #231f20;
+}
+
+.blog-card {
+  background-color: #231f20;
+  display: flex;
+  margin-top: 60px;
+  align-items: center;
+  max-width: 1170px;
+}
+
+.blog-card-img {
+  width: 400px;
+}
+
+.blog-card-img img {
+  display: block;
+}
+
+.blog-card-info {
+  max-width: 500px;
+  margin: 0 80px;
+}
+
+.blog-card h3 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.blog-card .author {
+  font-size: 14px;
+  color: #fff;
+}
+
+.blog-card .read-more {
+  color: #fff;
+}
+
+.blog-subcards {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.blog-subcard {
+  max-width: 570px;
+  padding: 50px;
+  transition: 0.3s;
+}
+
+.blog-subcard:hover {
+  box-shadow: -12px 10px 15px 0px #0000004a;
+}
+
+.blog-subcard h4 {
+  font-size: 18px;
+}
+
+.blog-subcard .read-more {
+  font-size: 14px;
+}
+
+.blog-subcard h4 {
+  font-size: 18px;
+}
+
+.blog-subcard .read-more {
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #fafafa;
+  padding: 115px 0 35px;
+}
+
+footer nav {
+  max-width: 600px;
+  margin: auto;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav li {
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0 25px;
+}
+
+.footer-nav li:last-child {
+  padding-right: 0;
+}
+
+.footer-nav li:last-child {
+  padding-left: 0;
+}
+
+.footer-logo {
+  padding: 0 115px !important;
+}
+
+.footer-logo img {
+  width: auto;
+}
+
+.line {
+  max-width: 1000px;
+  margin: 55px auto;
+  border: 1px solid black;
+}
+.button-primary {
+  margin-right: 16px;
+}
+
+footer .social {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+footer .copyright {
+  font-size: 14px;
+  text-align: center;
+  margin: 70px;
+}
+
+@media only screen and (max-width: 400px) {
+  header {
+    width: 100%;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .giftFinder {
+    margin-top: 20px;
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+  .feauters img {
+    margin-right: 100px;
+  }
+  .feauters {
+    display: flex;
+    flex-direction: column;
+  }
+  .feauters-work {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .feauters-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .feauters-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .feauters-img {
+    margin-bottom: 50px;
+  }
+  .find-gift-button {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .feauters-title {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .learn-more-button {
+    margin-bottom: 50px;
+  }
+  .occasions-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .occasions-card-item {
+    margin-bottom: 10px;
+  }
+  .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cta-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .button-primary {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .blog-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .author {
+    margin-top: 30px;
+  }
+  .read-more {
+    margin-bottom: 30px;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-nav li {
+    margin-bottom: 10px;
+  }
+  .blog-card-img {
+    display: none;
+  }
+  html {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin-right: 30px;
+  }
+  .giftFinder {
+    margin-left: 40px;
+  }
+  .feauters {
+    display: flex;
+    flex-direction: column;
+  }
+  .feauters-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .feauters-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+  }
+  .feauters-work {
+    display: flex;
+    flex-direction: column;
+  }
+  .learn-more-button {
+    margin-bottom: 50px;
+  }
+  .occasions-card-item {
+    margin-right: 10px;
+  }
+  .wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .author {
+    margin-top: 30px;
+  }
+  .read-more {
+    margin-bottom: 50px;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .occasions-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .feauters-work {
+    display: flex;
+  }
+  .feauters-info {
+    align-items: center;
+  }
+  .learn-more-button {
+    display: flex;
+    justify-content: center;
+  }
+  body {
+    border: auto;
+  }
+  .feauters-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media only screen and (max-width: 525px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+  .giftFinder {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .logo{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .nav li{
+    margin-right: 5px;
+  }
+}
+@media only screen and (max-width: 900px){
+.feauters-info{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.feauters-work{
+    display: flex;
+    flex-direction: column;
+}
+.find-gift-button{
+    margin-bottom: 30px;
+}
+.learn-more-button{
+    margin-bottom: 30px;
+}
+.read-more{
+    margin-bottom: 30px;
+}
+.blog-card-img{
+    width: 100%;
+    height: 100%;
+
+}
+.occasions-cards{
+   width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+}
